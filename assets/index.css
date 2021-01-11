@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+nav.nav-custom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+.nav-custom-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.nav-custom-link a{
+    color: #171717;
+    text-decoration: none;
+}
+
+button.btn-custom-primary{
+    padding: 9px 24px;
+    border: none;
+    border-radius: 24px;
+    background-color: #00BCF1;
+    color: #fff;
+}
+button.btn-custom-secondary{
+    padding: 9px 24px;
+    border: none;
+    border-radius: 24px;
+    background-color: transparent;
+    border:1px solid #00BCF1;
+    color: #00BCF1;
+}
+
+.mt-124{
+    margin-top: 124px;
+}
+
+h1.heading{
+    color: #171717;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+p.muted{
+    color: #5A5A5A;
+    margin-top: 24px;
+}
+
+p.dark{
+    font-weight: 600;
+    color: #171717;
+}
+
+.cta-hero button{
+    background-color: transparent;
+    border: none;
+}
+
+.dec-top{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.dec-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
